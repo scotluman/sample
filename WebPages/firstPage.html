@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        	<title>My First Page</title>
+        <script src="https://kit.fontawesome.com/2b0e8fbd7a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    	<h1>HTML5 Notes</h1>
+    	<nav>
+    		<ul>
+    			<li><a href="#documentObject">Document Object Model</a></li>
+    			<li><a href="#tagsSyntax">Tags & Syntax Section</a></li>
+    			<li><a href="#semanticTags">Semantic Tags Section</a></li>
+    			<li><a href= #videoSection>Video Section</a></li>
+    			<li><a href= #tableSection>Table Section</a></li>
+    			<li><a href= #usefulTags>Useful Tags Section</a></li>
+    		</ul>
+    	</nav>
+        	<i class="fas fa-thumbs-up fa-5x" aria-hidden="true"></i>
+        	<br><hr><br>
+        <div id="documentObject">
+    		<strong>2.1 - Document Object Model</strong>
+        	<ol>
+        		<li>Three Parts to a well-formed document.</li>
+        			<ul>
+        				<li>Doctype</li>
+        				<li>Head</li>
+        				<li>Body</li>
+    				</ul>
+    			<li>Always check your code through a valitdator</li>
+        			<ul>
+        				<li>Validator.w3.org</li>
+    				</ul>
+    			<li>Well formed pages use the DOM structure</li>
+    				<ul>
+    					<li>Use beginning and end tags</li>
+    					<li>Close inner tags before outer ones</li>
+    					<li>Use valid Attributes</li>
+					</ul>
+        	</ol>
+        </div>
+        <br><hr><br>
+         <div id="tagsSyntax">
+        	<strong>2.02 - Tags & Syntax</strong>
+        	<ol>
+        		<li>Display</li>
+        			<ul>
+        				<li>One of the most important attributes of an element is its display. The two most common are <em>block</em> and <em>inline</em>.</li>
+    				</ul>
+        			<ul>
+        				<li>Block (can take width and height)</li>
+        					<ul>
+        						<li><em>Newline is inserted befoe & after, e.g. it "Takes up" whole width.</em></li>
+        						<li>Headings (H1-H6)</li>
+        						<li>Paragraphs (p-tags)</li>
+        						<li>Divs (Generic section that is larger than a paragraph but no symantic meeting)</li>
+        						<li>Lists (Ordered or Unordered)</li>
+        						<li>Line Break (br)</li>
+        						<li></li>
+        					</ul>
+        				<li>Inline (can not take width and height</li>
+        					<ul>
+        						<li><em>Only uses as much space as needed to contain the element.</em></li>
+        						<li>Images (with attribute name/value pair)</li>
+        						<li>Always add alt attribute for screen readers</li>
+        						<li>Save yourself heartache and size and carefully name your picture before you use it.</li>
+        					</ul>
+        			</ul>
+    			<li>Attributes </li>
+        			<ul>
+        				<li>Attributes provide additional information about an element.</li>
+        				<li>Attibutes are <strong><em>ALWAYS</em></strong> specified in the start tag</li>
+        				<li>Attributes come in name/value pairs.</li>
+        				<li>More Attributes</li>
+    				</ul>
+        			<ul>
+        				<li>Class - Applies special properties to groups of elements</li>
+        				<li>id - specifies a unique id to one element on the page</li>
+        				<li>accesskey - a shortcut key to activate an element</li>
+        				<li>tabindex - the order elemtns will come into focus using the "tab" key.</li>
+        			</ul>
+				
+        	</ol>
+        </div>
+        <br><hr><br>
+         <div id="semanticTags">
+        	<strong>2.03 - Semantic Tags</strong>
+        	<ol>
+        		<li>How to Design</li>
+        			<ul>
+        				<li>The most important step in web-design is the <em>design.</em></li>
+        				<li>You need a clear picture of what you want to create, before you can begin coding.</li>
+    				</ul>
+    			<li>Using Semantic Tags</li>
+        			<ul>
+        				<li>In the beginning there was <strong><em>div</em></strong></li>
+        				<li>div was a way to group related content together</li>
+        				<li>Divs almost always had special classes/ids associated with them</li>
+        			</ul>
+        		<li>Tag Examples</li>
+        			<ul>
+        				<li><strong>Header Tag -</strong> A group of introductory or navigational aids: title, navigation links, etc. Not to be confused with head or the different headings.</li>
+        				<li><strong>Nav Tag -</strong> A section of the page that links to other pages or to parts within the page. This is often found within the header tag.</li>
+        				<li><strong>Footer Tag -</strong> A section that contains info such as copyright data, related documents, and links to social media. Typically at the bottom of the page, but not required.</li>
+        				<li><Strong>Figure -</Strong> More semantics than the image tag. Can include caption, muli-media resources, and other info.</li>
+        			</ul>
+        	</ol>
+        </div>
+        <br><hr><br>
+        <div id="videoSection">
+        	<h1>This is an embedded video.</h1>
+        	<video src="videovideo.mp4" width="400" controls >Video</video>
+        </div>
+        <br><hr><br>
+        <div id="tableSection">
+        	<h2>This is a basic table.</h2>
+        	<table>
+        		<tr><th>Column A</th><th>Column B</th><th>Column C</th><th>Column D</th></tr>
+        		<tr><td>ONE</td><td>TWO</td><td>THREE</td><td>FOUR</td></tr>
+        		<tr><td>FIVE</td><td>SIX</td><td>SEVEN</td><td>EIGHT</td></tr>
+        		<tr><td>NINE</td><td>TEN</td><td>ELEVEN</td><td>TWELVE</td></tr>
+        		<tr><td>THIRTEEN</td><td>FOURTEEN</td><td colspan="2" >FIFTEEN</td></tr>
+        	</table>
+        </div>
+    	<br><hr><br>
+        <div id="usefulTags">
+        	<h1> Useful Tags </h1>
+        	<br>
+        	<h3>Generic or Semantic Tags</h3>
+        	<details>
+        		<summary>Things to Bring</summary>
+        		<p>pajamas</p>
+        		<p>Toothpaste</p>
+        		<p>Earmuffs</p>
+    		</details>
+    		<button>CLICK MY FACE</button>
+        </div>
+    </body>
+</html>
